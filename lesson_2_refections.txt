@@ -1,36 +1,26 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+What happens when you initialize a repository? Why do you need to do it?
 
-    In a real project, a file of code has multive lines. Using the command line
-    can reveal the difference between the two versions in a very short time and 
-    more precisely.
-    
+多了一个.git的文件。告诉这个file是一个git库了。
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+Have had an additional file .git. Tell the file is a repository already.
 
-    Fill in your answer here
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+这个区域只是暂时保存文件的地方，是工作区和仓库间的映射集。不会真正的存储文件。它提供的是一种关系联结。
 
-    Fill in your answer here
+The staging area is the reflection assemble between working directory and repository, it does not save the real data of files. It just offers a connection relationship.
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+How can you use the staging area to make sure you have one commit per logical
+change?
 
-    Fill in your answer here
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
 
-How can you use the commands git log and git diff to view the history of files?
+How do the diagrams help you visualize the branch structure?
 
-    Fill in your answer here
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
 
-How might using version control make you more confident to make changes that
-could break something?
-
-    Fill in your answer here
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    Fill in your answer here
+What are the pros and cons of Git�䏭 automatic merging vs. always doing merges
+manually?
