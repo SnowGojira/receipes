@@ -1,4 +1,4 @@
-When would you want to use a remote repository rather than keeping all your work
+﻿When would you want to use a remote repository rather than keeping all your work
 local?
 
     1、电脑很有可能崩溃掉，存储在远程总算是有一个备份在。
@@ -10,7 +10,9 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    可能几个commit一起完成了一个比较大bug修复，中途如果实时的同步可能会造成版本的混乱，因此根据当前的逻辑完成情况自行提交最合适。
+    In the programming maybe there will be a huge bug to fix, in the middle of term, automatically commit may introduce some
+    choas in the github especially when someone cooperates with you. So it is more approperiated push it manually conditionally.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
